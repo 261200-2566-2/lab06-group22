@@ -607,6 +607,7 @@ class Armor extends Accessories{
 
     /** Constructs a new Armor(Helmet, Chest, Pant).
      *  require: name must non-null string, type must non-null string, level a non-negative integer, stat a non-negative integer.
+     *  effects: create a new armor
      * @param name name of armor
      * @param type type of armor
      * @param Level level of armor
@@ -632,6 +633,7 @@ class Ring extends Accessories{
 
     /** Constructs a new Ring.
      * require: name must non-null string, rise must non-null string, level a non-negative integer, stat a non-negative integer.
+     * effects: create a new ring
      * @param name name of ring
      * @param Rise rise of ring
      * @param Level level of ring
